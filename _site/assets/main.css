@@ -30,9 +30,11 @@ h2 { color: #007e9f; }
 
 h3 { color: #ff7145; }
 
+h4 { color: #40d2a7; }
+
 /** Links */
-a { color: #003162; text-decoration: none; }
-a:visited { color: #000b16; }
+a { color: #0033dd; text-decoration: none; }
+a:visited { color: #002191; }
 a:hover { color: #00002c; text-decoration: underline; }
 .social-media-list a:hover { text-decoration: none; }
 .social-media-list a:hover .username { text-decoration: underline; }
