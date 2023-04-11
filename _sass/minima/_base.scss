@@ -14,7 +14,7 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+  font: $base-font-weight #{$base-font-size}/#{$base-line-height} $space-grotesk;
   color: $text-color;
   background-color: $background-color;
   -webkit-text-size-adjust: 100%;
@@ -97,7 +97,13 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: $base-font-weight;
 }
 
+h2 {
+  color: $ensta-green;
+}
 
+h3 {
+  color: $copper;
+}
 
 /**
  * Links
@@ -251,4 +257,9 @@ table {
   td {
     border: 1px solid $grey-color-light;
   }
+}
+
+emph {
+  display: inline;
+  color: $copper
 }

@@ -10,16 +10,16 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Caroline Pascal’s personal page. Do not hesitate to contact me if you have any question, remark, or new project idea !" />
 <meta property="og:description" content="Caroline Pascal’s personal page. Do not hesitate to contact me if you have any question, remark, or new project idea !" />
-<link rel="canonical" href="http://localhost:4000/" />
-<meta property="og:url" content="http://localhost:4000/" />
+<link rel="canonical" href="http://0.0.0.0:4000/" />
+<meta property="og:url" content="http://0.0.0.0:4000/" />
 <meta property="og:site_name" content="Caroline Pascal" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Caroline Pascal" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","author":{"@type":"Person","name":"Caroline Pascal"},"description":"Caroline Pascal’s personal page. Do not hesitate to contact me if you have any question, remark, or new project idea !","headline":"Caroline Pascal","name":"Caroline Pascal","url":"http://localhost:4000/"}</script>
+{"@context":"https://schema.org","@type":"WebSite","author":{"@type":"Person","name":"Caroline Pascal"},"description":"Caroline Pascal’s personal page. Do not hesitate to contact me if you have any question, remark, or new project idea !","headline":"Caroline Pascal","name":"Caroline Pascal","url":"http://0.0.0.0:4000/"}</script>
 <!-- End Jekyll SEO tag -->
-<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Caroline Pascal" /></head>
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://0.0.0.0:4000/feed.xml" title="Caroline Pascal" /></head>
 <body><header class="site-header" role="banner">
 
   <div class="wrapper"><a class="site-title" rel="author" href="/">Caroline Pascal</a><nav class="site-nav">
@@ -37,18 +37,101 @@
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <div class="home"><p><img style="float: left;" src="/assets/me.jpeg" width="150" height="150" hspace="20" vspace="5" /></p>
+        <div class="home"><style>
+.image-cropper {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  float: left;
+  margin-right: 20px;
+}
 
-<h2 id="biography">Biography</h2>
-<p>Caroline Pascal is a PhD student in robotics and mechanics at U2IS and UME, ENSTA Paris. Despite her all-rounder personality, her focus is currently on the development of robotized solutions for the vibratory and acoustic characterization of unknown structures.
-In this context, her work blends together various topics, including the modeling, calibration and control of robotic arms, and the development of innovative mechanical characterization methods, especially in acoustics.
-Despite the research substance of any PhD thesis, a significant part of Caroline’s work is dedicated to the development of generic and user-friendly ROS-based tools for a simplified sensor and tool integration on robotic arms.</p>
+img.rounded {
+  display: inline;
+  margin: 0 auto;
+  height: 100%;
+  width: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Align height */
+}
+.item {}
+
+</style>
+
+<div class="container">
+  <div class="item">
+    <div class="image-cropper">
+      <p><img src="/assets/me.jpg" class="rounded" /></p>
+    </div>
+  </div>
+  <div class="item">
+    <div>
+      <h2> Biography </h2>
+      <p>Caroline Pascal is a PhD student in robotics and mechanics at <a href="http://u2is.ensta-paris.fr/">U2IS</a> and <a href="https://www.ensta-paris.fr/sites/default/files/fichiers/decouvrir/unite_de_mecanique.pdf">UME</a>, <a href="https://www.ensta-paris.fr/">ENSTA Paris</a>. Despite her all-rounder personality, her focus is currently on the development of robotized solutions for the vibratory and acoustic characterization of unknown structures. In this context, her work blends together various topics, including the modeling, calibration and control of robotic arms, and the implementation of innovative mechanical characterization methods, especially in acoustics. Despite the research substance of any PhD thesis, a significant part of Caroline’s work is dedicated to the design of generic and user-friendly ROS-based tools for a simplified sensor and tool integration on robotic arms.</p>
+    </div>
+  </div>
+</div>
 
 <h2 id="research">Research</h2>
 
+<h3 id="publications">Publications</h3>
+
+<h3 id="presentations">Presentations</h3>
+
+<ul>
+  <li>
+    <p><a href="https://idia-day-2022.sciencesconf.org/">IDIA Day 2022</a> - <em>Robotized measurements : autonomous geometric and vibro acoustic characterisation of structures</em> (<a href="/assets/Poster_28062022.pdf">poster</a>)</p>
+  </li>
+  <li>
+    <p><a href="https://jjcr-2022.sciencesconf.org/">JJCR 2022</a> - <em>Robotized measurements : autonomous geometric and vibro acoustic characterisation of structures</em> (<a href="/assets/Poster_07112022.pdf">poster</a>)</p>
+  </li>
+</ul>
+
+<h2 id="teaching">Teaching</h2>
+
+<ul>
+  <li>MO101, IN102, IN101 @ENSTA Paris</li>
+  <li>ARCSO @ENPC</li>
+</ul>
+
 <h2 id="projects">Projects</h2>
 
-<h2 id="education--previous-experiences">Education &amp; previous experiences</h2>
+<div class="container">
+  <div class="item">
+
+  </div>
+  <div class="item">
+
+  </div>
+</div>
+
+<h2 id="previous-experiences">Previous experiences</h2>
+
+<div class="container">
+  <div class="item">
+
+  </div>
+  <div class="item">
+
+  </div>
+</div>
+
+<h2 id="education">Education</h2>
+
+<div class="container">
+  <div class="item">
+
+  </div>
+  <div class="item">
+
+  </div>
+</div>
 </div>
 
       </div>
@@ -64,11 +147,11 @@ Despite the research substance of any PhD thesis, a significant part of Caroline
         <ul class="contact-list">
           <li class="p-name">
               Contact
-            </li><li><img src="/assets/mail.png" width="20px"> <a class="u-email" href="mailto:caroline.pascal.2020@ensta-paris.fr">caroline.pascal.2020@ensta-paris.fr</a></li><li><img src="/assets/mail.png" width="20px"> <a class="u-email" href="mailto:caroline8.pascal@gmail.com">caroline8.pascal@gmail.com</a></li></ul>
+            </li><li><img src="/assets/mail.png" width="15px"> <a class="u-email" href="mailto:caroline.pascal.2020@ensta-paris.fr">caroline.pascal.2020@ensta-paris.fr</a></li><li><img src="/assets/mail.png" width="15px"> <a class="u-email" href="mailto:caroline8.pascal@gmail.com">caroline8.pascal@gmail.com</a></li></ul>
       </div>
 
       <div class="footer-col footer-col-2"><ul class="social-media-list">
-  Social media<li><a href="https://github.com/CarolinePascal"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">CarolinePascal</span></a></li><li><a href="https://www.linkedin.com/in/carolinepascal"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#linkedin"></use></svg> <span class="username">carolinepascal</span></a></li></ul>
+  Social media<li><a href="https://github.com/CarolinePascal"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">CarolinePascal</span></a></li><li><a href="https://www.linkedin.com/in/carolinepascal"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#linkedin"></use></svg> <span class="username">carolinepascal</span></a></li><li><a href="https://gitlab.ensta.fr/pascal.2020"><img src="/assets/gitlab.png" width="15px"  style="margin: 0px 10px 0px 0px;" ><span class="username">pascal.2020</span></a></li></ul>
 </div>
 
       <div class="footer-col footer-col-3">
