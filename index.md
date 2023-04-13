@@ -13,21 +13,38 @@ layout: home
   overflow: hidden;
   border-radius: 50%;
 }
+
+.flex-header {
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  gap: 20px; 
+  flex-flow: row wrap;
+}
+
+.flex-header-left {
+  flex-grow: 0; 
+  flex-shrink: 0;
+}
+
+.flex-header-right {
+  flex-basis: 720px;
+}
 </style>
 
-<div style="display: flex; align-items: center; justify-content: center; gap: 20px; flex-flow: row wrap;">
+<div class="flex-header">
 
-<div style="flex-grow: 0; flex-shrink: 0;">
+<div class="flex-header-left">
 
 <div class="image-cropper">
-<img src="/assets/me.jpg">
+  <img src="/assets/me.jpg">
 </div>
 
 </div>
 
-<div style="flex-basis: 720px;">
-<h2> Biography </h2>
-Caroline Pascal is a PhD student in robotics and mechanics at <a href="http://u2is.ensta-paris.fr/">U2IS</a> and <a href="https://www.ensta-paris.fr/sites/default/files/fichiers/decouvrir/unite_de_mecanique.pdf">UME</a>, <a href="https://www.ensta-paris.fr/">ENSTA Paris</a>. Despite her all-rounder personality, her focus is currently on the development of robotized solutions for the vibratory and acoustic characterization of unknown structures. In this context, her work blends together various topics, including the modeling, calibration and control of robotic arms, and the implementation of innovative mechanical characterization methods, especially in acoustics. Despite the research substance of any PhD thesis, a significant part of Caroline's work is dedicated to the design of generic and user-friendly ROS-based tools for a simplified sensor and tool integration on robotic arms. 
+<div class="flex-header-right">
+  <h2> Biography </h2>
+  Caroline Pascal is a PhD student in robotics and mechanics at <a href="http://u2is.ensta-paris.fr/">U2IS</a> and <a href="https://www.ensta-paris.fr/sites/default/files/fichiers/decouvrir/unite_de_mecanique.pdf">UME</a>, <a href="https://www.ensta-paris.fr/">ENSTA Paris</a>. Despite her all-rounder personality, her focus is currently on the development of robotized solutions for the vibratory and acoustic characterization of unknown structures. In this context, her work blends together various topics, including the modeling, calibration and control of robotic arms, and the implementation of innovative mechanical characterization methods, especially in acoustics. Despite the research substance of any PhD thesis, a significant part of Caroline's work is dedicated to the design of generic and user-friendly ROS-based tools for a simplified sensor and tool integration on robotic arms. 
 </div>
 
 </div>
@@ -56,110 +73,139 @@ Caroline Pascal is a PhD student in robotics and mechanics at <a href="http://u2
 * [ARCSO](http://gede.enpc.fr/programme/Fiche.aspx) (_Tool for computer science in industry_) - Introduction to object-oriented programming and distributed version control in the context of industrial system design.
 
 ## Previous experiences
+
 <style>
-  .grid {
-    display: grid;
-    gap: 20px;
-    grid-template-columns: 20% minmax(0, 1fr);
-    grid-template-areas: "sidebar content";
-  }
-  .sidebar {
-    grid-area: sidebar;
-  }
-  .content {
-    grid-area: content;
-  }
+.flex-content {
+  display: flex; 
+  align-content: start; 
+  flex-flow: row wrap; 
+  margin-bottom: 10px;
+}
+
+.flex-content-left {
+  flex-basis: 200px; 
+  margin-right: 20px;
+}
+
+.flex-content-right {
+  flex-basis: 720px; 
+}
 </style>
 
-<div class="grid">
+<div class="flex-content">
 
-<div class="sidebar" style="grid-row: 1/2">
-<h4>**Research engineer**<br/>
-U2IS & UME - ENSTA Paris<br/>
-Jan. 2021 - Oct. 2021</h4>
+<div class="flex-content-left">
+  <h4>**Research engineer**<br>
+  U2IS & UME - ENSTA Paris<br>
+  Jan. 2021 - Oct. 2021</h4>
 </div>
 
-<div class="content" style="grid-row: 1/2">
-_Development of an user-friendly interface for the integration of various sensors in the use of the use of a robotic arm._ <br/> Developement of an intuitive ROS library and designed ergonomic tool-holding devices for the simplified implementation of
-geometric and vibro-acoustic measurement routines.
+<div class="flex-content-right">
+  _Development of an user-friendly interface for the integration of various sensors in the use of the use of a robotic arm._ <br> Developement of an intuitive ROS library and designed ergonomic tool-holding devices for the simplified implementation of
+  geometric and vibro-acoustic measurement routines.
 </div>
 
-<div class="sidebar" style="grid-row: 2/3">
-<h4>**End-of-studies intern**<br/>
-U2IS & CEA-LIST<br/>
-May 2019 - Nov. 2020</h4>
 </div>
 
-<div class="content" style="grid-row: 2/3">
-_Development of an object-centered grasp analysis and synthesis framework – Application to multi-fingered grippers._ <br/> Conception of a set of configurable task-oriented grasp quality metrics and formulated a state-of-the art hybrid
-friction-adhesion contact mode, which were successfully combined in a custom optimized gripper design aid tool.
+<div class="flex-content">
+
+<div class="flex-content-left">
+  <h4>**End-of-studies intern**<br>
+  U2IS & CEA-LIST<br>
+  May 2019 - Nov. 2020</h4>
 </div>
 
-<div class="sidebar" style="grid-row: 3/4">
-<h4>**Gap year intern**<br/>
-BALYO SA <br/>
-Jan. 2019 - Jun. 2020</h4>
+<div class="flex-content-right">
+  _Development of an object-centered grasp analysis and synthesis framework – Application to multi-fingered grippers._ <br> Conception of a set of configurable task-oriented grasp quality metrics and formulated a state-of-the art hybrid
+  friction-adhesion contact mode, which were successfully combined in a custom optimized gripper design aid tool.
 </div>
 
-<div class="content" style="grid-row: 3/4">
-_Development of an automated optimized-trajectory generation process for autonomous forklifts._ <br/> Design of an innovative forklift trajectory generation process allowing the vehicle to perform turns while avoiding collisions.
 </div>
 
-<div class="sidebar" style="grid-row: 4/5">
-<h4>**Gap year intern**<br/>
-Navier Lab. - ENPC <br/>
-Jun. 2018 - Dec. 2018</h4>
+<div class="flex-content">
+
+<div class="flex-content-left">
+  <h4>**Gap year intern**<br>
+  BALYO SA <br>
+  Jan. 2019 - Jun. 2020</h4>
 </div>
 
-<div class="content" style="grid-row: 4/5">
-_Force and torque sensors integration in the use of 6-axis robots._ <br/> Development of a C# sensor network aiming to facilitate the integration of sensors in the use of 6-axis robots.
+<div class="flex-content-right">
+  _Development of an automated optimized-trajectory generation process for autonomous forklifts._ <br> Design of an innovative forklift trajectory generation process allowing the vehicle to perform turns while avoiding collisions.
+</div>
+
+</div>
+
+<div class="flex-content">
+
+<div class="flex-content-left">
+  <h4>**Gap year intern**<br>
+  Navier Lab. - ENPC <br>
+  Jun. 2018 - Dec. 2018</h4>
+</div>
+
+<div class="flex-content-right">
+  _Force and torque sensors integration in the use of 6-axis robots._ <br> Development of a C# sensor network aiming to facilitate the integration of sensors in the use of 6-axis robots.
 </div>
 
 </div>
 
 ## Education
 
-<div class="grid">
+<div class="flex-content">
 
-<div class="sidebar" style="grid-row: 1/2">
-<h4>**Final MSc year**<br/>
-ENSTA Paris <br/>
-Sept. 2019 - Mar. 2020</h4>
+<div class="flex-content-left">
+  <h4>**Final MSc year**<br>
+  ENSTA Paris <br>
+  Sept. 2019 - Mar. 2020</h4>
 </div>
 
-<div class="content" style="grid-row: 1/2">
-_Robotics and Embedded Systems Department._ <br/> Embedded software, perception, modeling and simulation, control.
+<div class="flex-content-right">
+  _Robotics and Embedded Systems Department._ <br> Embedded software, perception, modeling and simulation, control.
 </div>
 
-<div class="sidebar" style="grid-row: 2/3">
-<h4>**First MSc year**<br/>
-ENPC <br/>
-Sept. 2016 - May. 2018</h4>
 </div>
 
-<div class="content" style="grid-row: 2/3">
-_Mechanical and Materials Department._ <br/> CFAO, mechanics of solids and fluids, structural dynamics, FEA.
+<div class="flex-content">
+
+<div class="flex-content-left">
+  <h4>**First MSc year**<br>
+  ENPC <br>
+  Sept. 2016 - May. 2018</h4>
 </div>
 
-<div class="sidebar" style="grid-row: 3/4">
-<h4>**PhD side course**<br/>
-MVA - Paris Saclay <br/>
-Jan. 2023 - Mar. 2023</h4>
+<div class="flex-content-right">
+  _Mechanical and Materials Department._ <br> CFAO, mechanics of solids and fluids, structural dynamics, FEA.
 </div>
 
-<div class="content" style="grid-row: 3/4">
-_NPM3D - Point clouds and 3D modeling._
 </div>
 
-<div class="sidebar" style="grid-row: 4/5">
-<h4>**PhD side course**<br/>
-Telecom Paris <br/>
-Feb. 2023 - Apr. 2023 </h4>
+<div class="flex-content">
+
+<div class="flex-content-left">
+  <h4>**PhD side course**<br>
+  MVA - Paris Saclay <br>
+  Jan. 2023 - Mar. 2023</h4>
 </div>
 
-<div class="content" style="grid-row: 4/5">
-_RUST programming language for embedded systems._
+<div class="flex-content-right">
+  _NPM3D - Point clouds and 3D modeling._
 </div>
+
+</div>
+
+<div class="flex-content">
+
+<div class="flex-content-left">
+  <h4>**PhD side course**<br>
+  Telecom Paris <br>
+  Feb. 2023 - Apr. 2023 </h4>
+</div>
+
+<div class="flex-content-right">
+  _RUST programming language for embedded systems._
+</div>
+
 </div>
 
 ## Projects 
