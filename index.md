@@ -210,9 +210,9 @@ layout: home
 
 ## Projects 
 
-* Conception, modeling and control of a self-made 6-axis robot with an actuated gripper (Mar. 2020);
+* Conception, modeling and control of a [self-made 6-axis robot](/assets/robot.jpg) with an actuated gripper (Mar. 2020);
 
-* Developement of an autonomous portraitist application using a robotic arm (Sept. 2021);
+* Developement of an [autonomous portraitist application](/assets/portrait.mp4) using a robotic arm (Sept. 2021); 
 
 ## Community involvement
 
