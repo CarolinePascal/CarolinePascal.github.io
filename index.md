@@ -59,6 +59,8 @@ layout: home
 
 * [JJCR 2022](https://jjcr-2022.sciencesconf.org/) - _Robotized measurements : autonomous geometric and vibro acoustic characterisation of structures_ ([poster](/assets/Poster_07112022.pdf)).
 
+* U2IS Lab Day 2023 - _Acoustic far-field prediction using robotized measurements and the boundary elements method_ ([poster](/assets/LABDAY2023.pdf)).
+
 
 ## Teaching
 
