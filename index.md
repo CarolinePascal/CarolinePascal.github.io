@@ -61,6 +61,7 @@ layout: home
 
 * U2IS Lab Day 2023 - _Acoustic far-field prediction using robotized measurements and the boundary elements method_ ([poster](/assets/LABDAY2023.pdf)).
 
+* ROSConFr 2023 - _robot-arm-calibration : the unberdening of a crucial task_ (talk with peer review process).
 
 ## Teaching
 
