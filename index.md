@@ -53,6 +53,8 @@ layout: home
 
 ### Publications
 
+* [IROS 2023](https://ieee-iros.org/) - _A ROS-based kinematic calibration tool for serial robots_.
+
 ### Presentations
 
 * [IDIA Day 2022](https://idia-day-2022.sciencesconf.org/) - _Robotized measurements : autonomous geometric and vibro acoustic characterisation of structures_ ([poster](/assets/Poster_28062022.pdf)).
@@ -61,7 +63,7 @@ layout: home
 
 * U2IS Lab Day 2023 - _Acoustic far-field prediction using robotized measurements and the boundary elements method_ ([poster](/assets/LABDAY2023.pdf)).
 
-* ROSConFr 2023 - _robot-arm-calibration : the unberdening of a crucial task_ (talk with peer review process).
+* [ROSConFr 2023](https://roscon.fr/) - _robot\_arm\_calibration: a kinematic calibration tool for serial robots, or the unberdening of a crucial task_ (talk with peer review process, [slides](/assets/ROSCon2023.pdf)).
 
 ## Teaching
 
