@@ -51,9 +51,9 @@ layout: home
 
 ## Research
 
-### Publications
+### [Publications](https://cv.hal.science/carolinepascal/)
 
-* [IROS 2023](https://ieee-iros.org/) - _A ROS-based kinematic calibration tool for serial robots_.
+* [IROS 2023](https://ieee-iros.org/) - Caroline Pascal, Alexandre Chapoutot, Olivier Doaré, "A ROS-based kinematic calibration tool for serial robots", _2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)_.
 
 ### Presentations
 
