@@ -51,9 +51,9 @@ layout: home
 
 ## Research
 
-### [Publications](https://cv.hal.science/carolinepascal/)
+### [Publications]
 
-* [IROS 2023](https://ieee-iros.org/) - Caroline Pascal, Alexandre Chapoutot, Olivier Doaré, "A ROS-based kinematic calibration tool for serial robots", _2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)_.
+* [IROS 2023](https://ieee-iros.org/) - Caroline Pascal, Alexandre Chapoutot, Olivier Doaré, "A ROS-based kinematic calibration tool for serial robots", _2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)_, Oct 2023, Detroit, Michigan, United States ([HAL link](https://hal.science/hal-04165802)).
 
 ### Presentations
 
@@ -65,6 +65,8 @@ layout: home
 
 * [ROSConFr 2023](https://roscon.fr/) - _robot\_arm\_calibration: a kinematic calibration tool for serial robots, or the unberdening of a crucial task_ (talk with peer review process, [slides](/assets/ROSCon2023.pdf)).
 
+* [FreeFEM Days 2023](https://freefem.org/ffdays.html) - _Far-field acoustic prediction using the boundary element method and robotized measurements_ (talk with peer review process, [slides](/assets/FreeFEMDays.pdf)).
+
 ## Teaching
 
 ### Courses at ENSTA Paris (2021-2022)
@@ -75,7 +77,7 @@ layout: home
 
 ### Courses at ENPC (2021-2022)
 
-* [ARCSO](http://gede.enpc.fr/programme/Fiche.aspx) (_Tool for computer science in industry_) - Introduction to object-oriented programming and distributed version control in the context of industrial system design.
+* [ARCSO](http://gede.enpc.fr/programme/Fiche.aspx) (_Tools for computer science in industry_) - Introduction to object-oriented programming and distributed version control in the context of industrial system design.
 
 ## Previous experiences
 
