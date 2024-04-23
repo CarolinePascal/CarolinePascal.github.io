@@ -65,7 +65,11 @@ layout: home
 
 * [ROSConFr 2023](https://roscon.fr/) - _robot\_arm\_calibration: a kinematic calibration tool for serial robots, or the unberdening of a crucial task_ (talk with peer review process, [slides](/assets/ROSCon2023.pdf)).
 
+* [R4 Seminar](https://r4-robotique.fr/) - _Robotized measurements for geometric and acoustic characterization of unknown structures_ ([slides](/assets/INRIABordeaux_talk.pdf), [video](https://www.youtube.com/watch?v=UCCju3B8p_U))
+
 * [FreeFEM Days 2023](https://freefem.org/ffdays.html) - _Far-field acoustic prediction using the boundary element method and robotized measurements_ (talk with peer review process, [slides](/assets/FreeFEMDays.pdf)).
+
+* U2IS Lab Day 2024 - _Robotized metrology : wait, it's all calibration ?_ ([slides](/assets/CarolinePascal(6).pdf).
 
 ## Teaching
 
