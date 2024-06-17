@@ -54,6 +54,7 @@ layout: home
 ### Publications
 
 * [IROS 2023](https://ieee-iros.org/) - Caroline Pascal, Alexandre Chapoutot, Olivier Doaré, "A ROS-based kinematic calibration tool for serial robots", _2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)_, Oct 2023, Detroit, Michigan, United States ([HAL link](https://hal.science/hal-04165802)).
+  
 * [Internoise 2024](https://internoise2024.org/) - Caroline Pascal, Pierre Marchand, Alexandre Chapoutot, Olivier Doaré, "Far-field sound field estimation using robotized measurements and the boundary elements method", _Inter-Noise 2024 : the 53rd International Congress and Exposition on Noise Control Engineering_, Société française d'acoustique (SFA), Aug 2024, Nantes, France ([HAL link](https://hal.science/hal-04601339)).
 
 ### Presentations
@@ -77,7 +78,9 @@ layout: home
 ### Courses at ENSTA Paris (2021-2022)
 
 * [MO101](https://perso.ensta-paris.fr/~chapoutot/teaching/mo101/) (_Introduction to Linux_) - Introduction to Linux/Unix commands, shell scripting and related utilities.
+  
 * [IN102](https://perso.ensta-paris.fr/~frehse/in102web/) (_Introduction to the C programming language_) - Introduction to the basics of C : compilation, pointers, functions, structures, arrays, etc.
+  
 * [IN101](https://ecampus.paris-saclay.fr/enrol/index.php?id=13880) (_Algorithms and programming_) - Familiarisation with systematic and scientific ways to concieve algorithms, through an analysis-formalisation-conception-implementation process.
 
 ### Courses at ENPC (2021-2022)
