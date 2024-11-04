@@ -53,7 +53,7 @@ layout: home
 
 ### Publications
 
-* [IROS 2023](https://ieee-iros.org/) - Caroline Pascal, Alexandre Chapoutot, Olivier Doaré, "A ROS-based kinematic calibration tool for serial robots", _2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)_, Oct 2023, Detroit, Michigan, United States ([HAL link](https://hal.science/hal-04165802)).
+* [IROS 2023](https://ieee-iros.org/) - Caroline Pascal, Alexandre Chapoutot, Olivier Doaré, "A ROS-based kinematic calibration tool for serial robots", _2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)_, Oct 2023, Detroit, Michigan, United States ([HAL link](https://hal.science/hal-04165802), DOI: [10.1109/IROS55552.2023.10341692](https://doi.org/10.1109/IROS55552.2023.10341692)).
   
 * [Internoise 2024](https://internoise2024.org/) - Caroline Pascal, Pierre Marchand, Alexandre Chapoutot, Olivier Doaré, "Far-field sound field estimation using robotized measurements and the boundary elements method", _Inter-Noise 2024 : the 53rd International Congress and Exposition on Noise Control Engineering_, Société française d'acoustique (SFA), Aug 2024, Nantes, France ([HAL link](https://hal.science/hal-04601339)).
 
