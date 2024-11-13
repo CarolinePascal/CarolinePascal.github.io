@@ -73,6 +73,8 @@ layout: home
 
 * U2IS Lab Day 2024 - _Robotized metrology : wait, it's all calibration ?_ ([slides](/assets/CarolinePascal(6).pdf)).
 
+* [JJCAB 2024](https://jjcab2024.sciencesconf.org/) - _Sound Field Estimation using robotized measurements and the Boundary Elements Method_.
+
 ## Teaching
 
 ### Courses at ENSTA Paris (2021-2022)
