@@ -63,7 +63,7 @@ layout: home
 
 * [JJCR 2022](https://jjcr-2022.sciencesconf.org/) - _Robotized measurements : autonomous geometric and vibro acoustic characterisation of structures_ ([poster](/assets/Poster_07112022.pdf)).
 
-* U2IS Lab Day 2023 - _Acoustic far-field prediction using robotized measurements and the boundary elements method_ ([poster](/assets/LABDAY2023.pdf)).
+* U2IS Lab Day 2023 - _Acoustic far-field prediction using robotized measurements and the boundary elements method_ ([poster](/assets/LABDAY2023.pdf), best poster award).
 
 * [ROSConFr 2023](https://roscon.fr/) - _robot\_arm\_calibration: a kinematic calibration tool for serial robots, or the unberdening of a crucial task_ (talk with peer review process, [slides](/assets/ROSCon2023.pdf)).
 
@@ -73,7 +73,7 @@ layout: home
 
 * U2IS Lab Day 2024 - _Robotized metrology : wait, it's all calibration ?_ ([slides](/assets/CarolinePascal(6).pdf)).
 
-* [JJCAB 2024](https://jjcab2024.sciencesconf.org/) - _Sound Field Estimation using robotized measurements and the Boundary Elements Method_.
+* [JJCAB 2024](https://jjcab2024.sciencesconf.org/) - _Sound Field Estimation using robotized measurements and the Boundary Elements Method_ ([poster](/assets/JJCAB_poster.pdf), best poster award).
 
 ## Teaching
 
